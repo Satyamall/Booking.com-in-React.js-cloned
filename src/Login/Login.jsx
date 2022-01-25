@@ -23,7 +23,7 @@ const Login = () => {
       let data = JSON.parse(localStorage.getItem("login"));
       if (data) {
         alert("You have successfully Logged In")
-        document.location.href = "http://localhost:3000/";
+        document.location.href = "https://satyamall.github.io/Booking.com-in-React.js-cloned/";
       }
     }, 5000)
 
