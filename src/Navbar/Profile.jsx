@@ -19,7 +19,7 @@ export const Profile = () => {
     const handleLogout = () => {
         localStorage.removeItem("login")
         alert("Successfully Logged Out")
-        document.location.href = "https://satyamall.github.io/Booking.com-in-React.js-cloned/"
+        // document.location.href = "https://satyamall.github.io/Booking.com-in-React.js-cloned/"
     }
 
     return <>
